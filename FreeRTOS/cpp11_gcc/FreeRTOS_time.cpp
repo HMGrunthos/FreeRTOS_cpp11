@@ -18,7 +18,7 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-#include "freertos_time.h"
+#include "FreeRTOS_time.h"
 #include "critical_section.h"
 #include <sys/time.h>
 #include <chrono>

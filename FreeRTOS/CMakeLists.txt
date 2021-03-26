@@ -31,7 +31,7 @@ include_directories(
 
 add_library(freeRTOS STATIC
   cpp11_gcc/condition_variable.cpp
-  cpp11_gcc/freertos_time.cpp
+  cpp11_gcc/FreeRTOS_time.cpp
   cpp11_gcc/gthr_key.cpp
   cpp11_gcc/thread.cpp
 
