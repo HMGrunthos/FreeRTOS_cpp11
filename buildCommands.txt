@@ -1,0 +1,2 @@
+cmake ../FreeRTOS_cpp11 -G "Eclipse CDT4 - Unix Makefiles" -Dk64frdmevk=1 -DCMAKE_TOOLCHAIN_FILE=../arm-gcc-toolchain.cmake --log-level=TRACE
+cmake --build . --verbose
