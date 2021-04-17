@@ -74,6 +74,7 @@ namespace free_rtos_std
 
     friend std::thread;
 
+  public:
     enum
     {
       eEvStoragePos = 0,
@@ -81,7 +82,6 @@ namespace free_rtos_std
       eJoinEv = 1 << 23
     };
 
-  public:
     typedef void (*task_foo)(void *);
     typedef TaskHandle_t native_task_type;
 
